@@ -1,0 +1,78 @@
+CRITICAL - 2021-03-24 15:56:37 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 15:57:05 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 16:02:01 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 16:03:22 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 16:03:35 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 16:03:41 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 16:03:46 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 16:09:43 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 16:13:43 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 16:13:54 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-24 10:23:49 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 13:57:49 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-solicitar...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 14:03:13 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-solicitar...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

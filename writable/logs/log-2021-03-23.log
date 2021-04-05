@@ -1,0 +1,336 @@
+CRITICAL - 2021-03-23 14:57:27 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'favicon.png')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 14:58:11 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 14:58:15 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'favicon.png')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:08:14 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:08:18 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'favicon.png')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:09:21 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:09:25 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'favicon.png')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:13:18 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:13:22 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'favicon.png')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:14:36 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('alert')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:14:42 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:14:46 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'favicon.png')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:21:50 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:25:38 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:31:20 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:33:37 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:35:30 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:35:33 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:35:37 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('public', 'images', 'card1.jpg')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:38:11 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('view', 'pages', 'index-solicitar...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:51:46 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-anunciar-...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:52:02 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-anunciar-...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:54:27 --> Unmatched '}'
+#0 C:\xampp\htdocs\CI4teste\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Pages/showme/ho...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(818): CodeIgniter\Router\Router->handle('Pages/showme/ho...')
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(387): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 15:54:31 --> Unmatched '}'
+#0 C:\xampp\htdocs\CI4teste\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Pages/showme/ho...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(818): CodeIgniter\Router\Router->handle('Pages/showme/ho...')
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(387): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 15:55:19 --> Unmatched '}'
+#0 C:\xampp\htdocs\CI4teste\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Pages/showme/so...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(818): CodeIgniter\Router\Router->handle('Pages/showme/so...')
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(387): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 15:56:04 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro-...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:57:27 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro-...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 15:58:00 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('anunciarImovel')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:25:29 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme()
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:25:50 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme()
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:26:05 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme()
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:26:15 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme()
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:30:12 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('anuncnciar-imov...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:32:03 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-solicitar...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:38:35 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:38:40 --> Undefined variable $email
+#0 C:\xampp\htdocs\CI4teste\app\Views\pages\index-dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\CI4teste\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4teste\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4teste\system\Common.php(1250): CodeIgniter\View\View->render('pages/index-das...', Array, true)
+#4 C:\xampp\htdocs\CI4teste\app\Controllers\Pages.php(20): view('pages/index-das...', Array)
+#5 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard')
+#6 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 17:38:45 --> Undefined variable $email
+#0 C:\xampp\htdocs\CI4teste\app\Views\pages\index-dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\CI4teste\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4teste\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4teste\system\Common.php(1250): CodeIgniter\View\View->render('pages/index-das...', Array, true)
+#4 C:\xampp\htdocs\CI4teste\app\Controllers\Pages.php(20): view('pages/index-das...', Array)
+#5 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard')
+#6 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 17:43:28 --> Undefined variable $totalAnuncios
+#0 C:\xampp\htdocs\CI4teste\app\Views\pages\index-dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\CI4teste\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4teste\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4teste\system\Common.php(1250): CodeIgniter\View\View->render('pages/index-das...', Array, true)
+#4 C:\xampp\htdocs\CI4teste\app\Controllers\Pages.php(20): view('pages/index-das...', Array)
+#5 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard')
+#6 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 17:57:35 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('view', 'pages', 'index-solicitar...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:58:41 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-alugueis-...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:58:51 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-alugueis-...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:59:24 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-alugueis-...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:59:27 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-alugueis-...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 17:59:30 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-alugueis-...')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 18:03:17 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 18:04:26 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('home')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 18:09:28 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 18:11:07 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('view', 'pages', 'index-login.php')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 18:11:11 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('view', 'pages', 'index-login')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 18:12:27 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 18:15:33 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('view.html')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 18:16:18 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-imoveis-d...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 18:38:27 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

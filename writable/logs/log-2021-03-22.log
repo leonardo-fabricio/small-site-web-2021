@@ -1,0 +1,6 @@
+CRITICAL - 2021-03-22 12:07:55 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(938): App\Controllers\Pages->showme('teste')
+#1 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\CI4teste\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,24 @@
+CRITICAL - 2021-04-04 12:35:28 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index=da')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-04 12:53:06 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-04 13:19:50 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index=das')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-04 19:28:41 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('meus-anuncios')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

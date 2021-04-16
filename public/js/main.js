@@ -1,9 +1,6 @@
 //alert('eu funciono aqui hhe');
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
+// .
 
   // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
   // var collapsibleElem = document.querySelector('.collapsible');
@@ -144,3 +141,26 @@ function Checkfiles() {
     }
     return false; // se não cair no if, cai aqui (else)
 }
+
+const nav = document.getElementsByTagName("nav")[0];
+const TopoNav = nav.offsetTop;
+window.onscroll = fixarNoTopo();
+
+function fixarNoTopo(){
+    if(window.pageYOffset >= TopoNav){
+        nav.classList.add("fixoNotopo");
+    }else{
+        nav.classList.remove("fixoNotopo");
+    }
+}
+
+
+
+function card_btn_click(cidade,tipoimovel,tipoanuncio,descricao,preco){
+    document.getElementById('cidade_modal').innerText = cidade;
+    document.getElementById('tipoAnuncio_modal').innerText = tipoanuncio;
+    document.getElementById('desc_modal').innerText = descricao;
+    document.getElementById('preco_modal').innerText = preco;
+    document.getElementById('tipoImovel_modal').innerText = tipoimovel;
+}
+        

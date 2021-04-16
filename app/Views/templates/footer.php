@@ -1,4 +1,4 @@
-    
+</div>
  <!-- INICIO RODAPE -->
  <footer id="myFooter">
         <div class="container">
@@ -39,6 +39,12 @@
     <div id="fim">
         <p>©2021. All Rights Reserved. InteriorImoveis®</p>
     </div>
+
+    <?php 
+    unset($_SESSION['msg']);
+    unset($_SESSION['msg3']);
+    ?>
+    
     <!-- FIM RODAPE -->
 </body>
 

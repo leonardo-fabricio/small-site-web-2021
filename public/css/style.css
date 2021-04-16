@@ -6,7 +6,9 @@
     width: 40px;
     height: 40px;
 }
-
+/* header{
+    padding: 100px;
+} */
 .navbar-text:hover {
     color: black !important;
     cursor: pointer !important;
@@ -45,6 +47,8 @@
 nav {
     background-color: #E4D4C8 !important;
     color: rgb(97, 93, 93) !important;
+    overflow: hidden;
+    text-decoration: none;
     /*border-bottom: 1px solid black;*/
 }
 
@@ -96,6 +100,7 @@ h4 {
     background-color: #A47551;
     color: white;
     text-align: center;
+    width: 100%  !important;
 }
 
 #myFooter .row {
@@ -185,6 +190,7 @@ html {
 }
 
 body{
+    margin: 0px;
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -839,18 +845,31 @@ textarea:hover{
         margin-left: 120px !important;
     }
 }
-#msg-dashboard{
-    float: right;
-    text-align: center  !important;
-    margin-right: 25%  !important;
-    margin-top: 80px !important;
-}
+
 #msg-h4-dash{
     margin-right: 1% !important;
     margin-top: 40%  !important;
     text-align: center !important;
 
 }
+#msg-dashboard{
+    text-align: center !important;
+}
+.sidenav-trigger img{
+    float: left;
+    margin-top: -70px;
+}
+#modal1{
+    width: 45% !important;
+}
+#modal1 .modal-content{
+    text-align: center;
+    height: 900px !important;
+   
+}
+ #solicitarButton input{
+    text-align: center !important ;
+} 
 
 /* .modal.fade{
     font-family: 'Source Serif Pro', serif;

@@ -16,14 +16,14 @@
                     <br>
                 </div>
 
-                <form name="validar" method="POST" action="index-login.php" onsubmit="return validarCampos();">
+                <form name="validar" method="POST" action="Processo_usuario" onsubmit="return validarCampos();">
                     <p class="text-one-board">Nome Completo</p>
                     <p class="obrigatorio">*</p>
                     <input type="text" id="nome" class="fadeIn second zero-raduis" name="nome" placeholder="Nome Completo" pattern="[A-Za-zÀ-ú ']{4,}" required><br><br>
 
                     <p class="text-one-board">Cidade</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="endereco" class="fadeIn second zero-raduis" name="endereco" placeholder="Ex: Pau dos Ferros/RN" required><br><br>
+                    <input type="text" id="endereco" class="fadeIn second zero-raduis" name="cidade" placeholder="Ex: Pau dos Ferros/RN" required><br><br>
 
                     <p class="text-one-board">CEP</p>
                     <p class="obrigatorio">*</p>

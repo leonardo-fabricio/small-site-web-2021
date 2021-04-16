@@ -1,3 +1,7 @@
+<?php 
+session_start();
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -14,6 +18,7 @@
 </head>
 
 <body>
+    
     <script src="../../../public/js/jquery.min.js"></script>
     <script src="../../../public/js/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="../../../public/js/bootstrap.min.js"></script>
@@ -42,8 +47,18 @@
                             <a class="nav-link" href="index-imoveis-disponiveis">Imóveis Disponíveis</a>
                         </li>
                     </ul>
-
+                    <?php 
+                        if(!isset($_SESSION['email'])){
+                    ?>
                     <a data-target="slide-out" class="navbar-text" href="index-login">Entrar ou Cadastrar</a>
+                    <?php 
+                        }
+                        else{
+                    ?>
+                            <a data-target="slide-out" class="navbar-text" href="index-dashboard">Dashboard</a>
+                    <?php
+                        }
+                    ?>
                     <!-- Provavelmente mudar essa tag para button -->
                 </div>
             </div>

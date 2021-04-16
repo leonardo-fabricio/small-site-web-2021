@@ -1,29 +1,37 @@
-
+<?php 
+if(!isset($_SESSION['email'])){
+    $_SESSION['msg6'] = "<script>
+                            alert('Por favor, realize o login para poder anunciar seus imóveis!');
+                        </script>";
+    header('Location: index-login');
+    exit;
+}
+?>
 <h4>Para anunciar imóveis, preencha corretamente os dados abaixo!</h4>
     <!-- INICIO ANUNCIO -->
     <div class="form-control-teste">
         <div class="wrapper fadeInDown zero-raduis">
             <div id="formContent">
-                <form name="anuncioImoveis" method="POST" action="index-imoveis-disponiveis.php" enctype="multipart/form-data" onsubmit="return validateAnuncio();"> <!--action="dashboard.php"-->
+                <form name="anuncioImoveis" method="POST" action="Processo_anuncio" enctype="multipart/form-data" onsubmit="return validateAnuncio();"> <!--action="dashboard.php"-->
                     <br><h5>Dados Pessoais</h5><hr>
                     <p class="text-one-board">Nome do Anunciante</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="nome" class="fadeIn second zero-raduis" name="nome" placeholder="Nome Completo" pattern="[A-Za-zÀ-ú ']{4,}" required><br><br>
+                    <input type="text" id="nome" class="fadeIn second zero-raduis" name="nome" placeholder="Nome Completo" pattern="[A-Za-zÀ-ú ']{4,}" value="<?php if(isset($_SESSION['nome'])){echo $_SESSION['nome'];}?> " readonly=“true” required><br><br>
                     
                     <p class="text-one-board">Celular</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="celular" class="fadeIn second zero-raduis" name="celular" placeholder="+99 (99) 9.9999-9999" onkeypress="maskCelular(this)" minlength="18" maxlength="18" required><br><br>
+                    <input type="text" id="celular" class="fadeIn second zero-raduis" name="celular" placeholder="+99 (99) 9.9999-9999" onkeypress="maskCelular(this)" minlength="18" maxlength="18" readonly=“true” value="<?php if(isset($_SESSION['celular'])){echo $_SESSION['celular'];}?> " required><br><br>
 
                     <p class="text-one-board">Email</p>
                     <p class="obrigatorio">*</p>
-                    <input type="email" id="email" class="fadeIn second zero-raduis" name="email" placeholder="Email" required><br><br>
+                    <input type="email" id="email" class="fadeIn second zero-raduis" name="email" placeholder="Email" value="<?php if(isset($_SESSION['email'])){echo $_SESSION['email'];}?> " readonly=“true” required><br><br>
 
                     <hr>
                     <h5>Dados do Anúncio</h5><hr>
 
                     <p class="text-one-board">Cidade</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="endereco" class="fadeIn second zero-raduis" name="endereco" placeholder="Ex: Pau dos Ferros/RN" required><br><br>
+                    <input type="text" id="cidade" class="fadeIn second zero-raduis" name="cidade" placeholder="Ex: Pau dos Ferros/RN" required><br><br>
 
                     <p class="text-one-board">Tipo de Anúncio</p>
                     <p class="obrigatorio">*</p><br><br>
@@ -46,7 +54,7 @@
                     <!-- <input type="file" id="inputImagem" name="inputImagem" class="btn btn-sucess" accept="image/png, image/jpeg, image/jpg" maxlength="1024" required multiple/><br> -->
                     
                     <div class="mb-3">
-                        <input type="file" id="inputImagem" class="form-control" accept="image/png, image/jpeg, image/jpg" maxlength="1024" aria-label="file example" required multiple>
+                        <input name="arquivo" type="file" id="inputImagem" class="form-control" accept="image/png, image/jpeg, image/jpg" maxlength="2048" aria-label="file example" required multiple>
                         <div class="invalid-feedback">Example invalid form file feedback</div>
                     </div>
                     

@@ -1,3 +1,12 @@
+<?php
+if(!isset($_SESSION['email'])){
+    $_SESSION['msg6'] = "<script>
+                            alert('Por favor, realize o login para fazer a solicitação de imóveis!');
+                        </script>";
+    header('Location: index-login');
+    exit;
+}
+?>
 <h4>Solicite um imóvel para algum anunciante.</h4>
 <p id="trecho">Caso algum anunciante próximo a você veja sua solicitação, ele entrará em contato.</p>
 
@@ -5,19 +14,19 @@
     <div class="form-control-teste">
         <div class="wrapper fadeInDown zero-raduis">
             <div id="formContent">
-                <form name="anuncioImoveis" method="POST" onsubmit="return validateAnuncio();">
+                <form name="solicitar" method="POST" action="Processo_soli" onsubmit="return validarCampos();">
                     <br><h5>Preencha todos os dados</h5><hr>
                     <p class="text-one-board">Nome Completo</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="nome" class="fadeIn second zero-raduis" name="nome" placeholder="Nome Completo" pattern="[A-Za-zÀ-ú ']{4,}" required><br><br>
+                    <input type="text" id="nome" class="fadeIn second zero-raduis" name="nome" placeholder="Nome Completo" pattern="[A-Za-zÀ-ú ']{4,}" readonly="true" required><br><br>
                     
                     <p class="text-one-board">Celular</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="celular" class="fadeIn second zero-raduis" name="celular" placeholder="+99 (99) 9.9999-9999" onkeypress="maskCelular(this)" maxlength="18" required><br><br>
+                    <input type="text" id="celular" class="fadeIn second zero-raduis" name="celular" placeholder="+99 (99) 9.9999-9999" onkeypress="maskCelular(this)" maxlength="18" readonly=“true” required><br><br>
 
                     <p class="text-one-board">Email</p>
                     <p class="obrigatorio">*</p>
-                    <input type="email" id="email" class="fadeIn second zero-raduis" name="email" placeholder="Email" required><br><br>
+                    <input type="email" id="email" class="fadeIn second zero-raduis" name="email" placeholder="Email" value = "<?php echo $_SESSION['email'] ?>" readonly=“true” required><br><br>
 
                     <p class="text-one-board">Em qual cidade deseja um imóvel?</p>
                     <p class="obrigatorio">*</p>

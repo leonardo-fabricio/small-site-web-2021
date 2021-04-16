@@ -1,0 +1,132 @@
+CRITICAL - 2021-04-13 12:42:59 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 12:46:13 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 12:46:21 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 12:46:56 --> Unmatched '}'
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 12:47:35 --> Unmatched '}'
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 12:50:25 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 13:04:57 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-solicitar...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-13 13:05:38 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-solicitar...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-13 13:27:19 --> Invalid file: pages/Processo_solicitacao.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Processo_...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(42): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_solici...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 13:29:54 --> Invalid file: pages/Processo_solicitacao.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Processo_...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(42): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_solici...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 13:33:00 --> Invalid file: pages/Processo_solicitacao.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Processo_...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(42): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_solici...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 13:34:24 --> Invalid file: pages/Processo_solicitacao.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Processo_...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(42): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_solici...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 13:35:44 --> Invalid file: pages/Processo_solicitacao.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Processo_...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(42): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_solici...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 13:37:34 --> Invalid file: pages/Processo_solicitacao.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Processo_...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(42): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_solici...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 13:38:49 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_solici...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-13 13:41:28 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_solici...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

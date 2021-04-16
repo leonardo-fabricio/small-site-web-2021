@@ -1,0 +1,221 @@
+CRITICAL - 2021-04-12 17:48:47 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 17:50:21 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 18:27:34 --> Undefined array key "nome"
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\templates\header-dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(19): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 18:28:35 --> Undefined array key "nome"
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\templates\header-dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(19): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 18:29:32 --> Undefined array key "emailLogin"
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\templates\header-dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(19): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 18:34:51 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 18:43:37 --> Call to a member function fetch_assoc() on bool
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#3 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 18:59:17 --> Undefined array key "msg3"
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\index-cadastro.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/index-cad...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(42): view('pages/index-cad...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 19:04:48 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 19:06:50 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 19:17:19 --> Object of class mysqli could not be converted to string
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#3 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 19:17:36 --> Object of class mysqli could not be converted to string
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#3 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 19:19:41 --> Call to undefined function println()
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(19): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard')
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 19:21:55 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\Processo_anuncio.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 19:23:20 --> Undefined constant "id"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#3 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 19:25:29 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\Processo_anuncio.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 19:29:09 --> Undefined variable $id
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\Processo_anuncio.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 19:43:18 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 19:51:30 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 19:58:48 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 20:08:22 --> Undefined array key "celular"
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\anunciar-imoveis.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/anunciar-...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(42): view('pages/anunciar-...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('anunciar-imovei...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 20:08:59 --> Undefined array key "celular"
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\anunciar-imoveis.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/anunciar-...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(42): view('pages/anunciar-...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('anunciar-imovei...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

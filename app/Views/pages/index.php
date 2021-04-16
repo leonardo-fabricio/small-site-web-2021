@@ -43,45 +43,68 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </a>
-        </div>
+    </div>
         <!-- FIM CAROUSEL -->
         <br>
         <hr/>
+
         <!-- INICIO DESTAQUES DE LOCALIZAÇÃO-->
         <h4 id="location" class="form-label">IMÓVEIS PRÓXIMOS A SUA LOCALIZAÇÃO!</h4>
-        <?php for($i = 0; $i < 4; $i++){ ?>
-            <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    <img src="../../../public/images/card1.jpg" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
-                    <div class="card-body">
-                        <b><h5 class="card-title">Apartamento</h5></b>
-                        <p class="card-text">Apartamento com 3 quartos, sala de estar, 2 banheiros e cozinha.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Preço: R$300,000</li>
-                        <li class="list-group-item">Local: Praça da Matriz, Pau dos Ferros - RN</li>
-                        <li class="list-group-item">Tipo: <b>Compra</b></li>
-                    </ul>
-                    <div class="card-body">
-                        <input type="submit" id="botoes-cards" class="fadeIn fourth zero-raduis" value="Ver Imóvel">
-                    </div>
+        <?php
+            $servidor = "localhost";
+            $usuario = "root";
+            $senhaserver = "";
+            $dbnome = "interiorimoveis";
+            $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
+
+
+
+
+            $query = "select * from anuncios";
+            $result = mysqli_query($conn, $query);
+
+            while ($dados_banco = mysqli_fetch_array($result)){
+                $cidade = $dados_banco['cidade'];
+                $tipoImovel = $dados_banco['tipoImovel'];
+                $tipoAnuncio = $dados_banco['tipoAnuncio'];
+                $preco = $dados_banco['preco'];
+                $descrissao = $dados_banco['descricao'];
+        ?>
+        
+        <div id="card IdImovel-<?php echo $dados_banco['id'];?>" class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <img src="../../../public/images/card1.jpg" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
+                <div class="card-body">
+                    <b><h5 id="tipoImovel" class="card-title"><?php echo "$tipoImovel" ?></h5></b>
+                    <p id="descricao" class="card-text"><?php echo "$descrissao" ?></p>
                 </div>
+                <ul class="list-group list-group-flush">
+                    <li id="preco" class="list-group-item"> <b>Preço: </b>R$ <?php echo "$preco" ?></li>
+                    <li id="cidade" class="list-group-item"><b>Cidade: </b><?php echo "$cidade" ?></li>
+                    <li id="tipoAnuncio" class="list-group-item"><b>Tipo: </b><?php echo "$tipoAnuncio" ?></li>
+                </ul>
+                <div class="card-body">
+                <input onclick="card_btn_click('<?php echo $cidade; ?>','<?php echo $tipoImovel; ?>','<?php echo $tipoAnuncio; ?>','<?php echo $descrissao; ?>','<?php echo $preco; ?>')" type="submit" class="fadeIn fourth zero-raduis view_data_modal" value="Ver Imóvel">
+                </div>
+        </div> 
+        
+        
         <?php } ?>
-    </div>
-    <!--FIM DESTAQUES DE LOCALIZAÇÃO-->
-    
+
     <!-- Inicio abrir chamado -->
-    <h2 id="solicitarButton">Não encontrou nada que procura? Faça uma solicitação!</h2>
+    <div id="solicitarButton">
+    <h2 style="margin-left:30% !important;">Não encontrou nada que procura? Faça uma solicitação!</h2>
     <form action="index-solicitar" method="POST">
         <input type="submit" id="solicitar-imovel" class="fadeIn fourth zero-raduis" value="Solicitar Imóvel">
     </form>
+    </div>
     <!-- FIM abrir chamado -->
 
-    <!-- Modal -->
+        <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg"> <!-- caso não for necessário esse tamanho, retirar modal-lg -->
             <div class="modal-content">
             <div class="modal-header bg-dark">
-                <h5 class="modal-title" id="staticBackdropLabel">Apartamento</h5>
+                <h5 class="modal-title"><span id="tipoImovel_modal" style="color:white;"></span></h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -89,11 +112,11 @@
                     <img id="imagemModal" src="../../../public/images/card1.jpg" class="img-thumbnail" alt="Imagem do Imóvel">
                 </div>
                 <div class="texto-imagem-modal">
-                    <p><b>Nome do Anunciante: </b>Luis Lucilandio</p>
-                    <p><b>Cidade: </b>Pau dos Ferros/RN</p>
-                    <p><b>Tipo de Anúncio: </b>Aluguel</p>
-                    <p><b>Descrição do Imóvel: </b>Apartamentos disponíveis, próximo ao IFRN Pau dos Ferros: 1 sala, 1 quarto, 1 banheiro.</p>
-                    <p><b>Preço: </b>R$300</p>
+                    <p><b>Nome do Anunciante: </b><span id="nomeAnunciante_modal"></span></p>
+                    <p ><b>Cidade: </b><span id="cidade_modal"></span></p>
+                    <p ><b>Tipo de Anúncio: </b><span id="tipoAnuncio_modal"></span></p>
+                    <p ><b>Descrição do Imóvel: </b><span id="desc_modal"></span></p>
+                    <p ><b>Preço: </b><span id="preco_modal"></span></p>
                     <p class="alert alert-success"><b>Situação: </b>Disponível</p>
                 </div>
             </div>
@@ -101,14 +124,18 @@
                 <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
                 <!-- <button type="button" class="btn btn-primary">Understood</button> -->
                 <div id="botoes-footer">
-                    <!-- <p id="contato">Entre em Contato com <b>Luís Lucilandio</b></p> -->
-                    <input type="submit" class="fadeIn fourth zero-raduis botao-footer" value="EMAIL">
-                    <input type="submit" class="fadeIn fourth zero-raduis botao-footer" value="TELEFONE">
+                    <input type="submit" onclick="location.href='https://mail.google.com/mail/u/0/?fs=1&to=redbullfc18@gmail.com&tf=cm#'" class="fadeIn fourth zero-raduis botao-footer" value="EMAIL">
+                    <input type="submit" onclick="location.href='https://api.whatsapp.com/send?phone=5584996120413'" class="fadeIn fourth zero-raduis botao-footer" value="TELEFONE">
                 </div>
             </div>
             </div>
         </div>
     </div>
     <!-- MODAL -->
+    
+    
+        
+        
+   
     
 

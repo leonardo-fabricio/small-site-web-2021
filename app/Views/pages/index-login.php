@@ -1,4 +1,32 @@
-
+    <?php 
+        if(isset($_SESSION['msg3'])){
+            echo "<script>
+                    alert('USUARIO NÃO ENCONTRADO');
+                </script>";
+                unset($_SESSION['msg3']);
+        }
+         
+        if(isset($_SESSION['msg'])){
+            $aux = "true";
+            if($aux == $_SESSION['msg']){
+                echo "<script>
+                    alert('Usuario cadastrado com sucesso');
+                </script>";
+              
+            }
+            else{
+                echo "<script>
+                    alert('Usuario não Cadastrado');
+                </script>";
+            }
+            unset($_SESSION['msg']);
+        }
+        if(isset($_SESSION['msg6'])){
+            echo $_SESSION['msg6'];
+            unset($_SESSION['msg6']);
+        }
+    
+    ?>
     <!-- INICO TELA LOGIN -->
     <!-- <br> -->
     <h4>Use uma conta e Faça Login</h4>
@@ -14,9 +42,9 @@
                     <br>
                 </div>
 
-                <form name="validarLogin" action="index-dashboard" method="POST" onsubmit="return senhaLoginInvalida();"> <!--action="dashboard.php"-->
-                    <input type="email" id="email" class="fadeIn second zero-raduis" name="emailLogin" placeholder="Email" required>
-                    <input type="text" id="password" class="fadeIn third zero-raduis" name="senhaLogin" placeholder="Senha" minlength="6" required>
+                <form name="validarLogin" action="login" method="POST" onsubmit="return senhaLoginInvalida();"> <!--action="dashboard.php"-->
+                    <input type="email" id="email" class="fadeIn second zero-raduis" name="email" placeholder="Email" required>
+                    <input type="text" id="password" class="fadeIn third zero-raduis" name="senha" placeholder="Senha" minlength="6" required>
                     <div id="formFooter">
                         <a class="underlineHover" href="index-esqueceu-senha">Esqueceu a senha?</a>
                     </div>

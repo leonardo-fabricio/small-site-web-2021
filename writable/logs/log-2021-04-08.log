@@ -1,0 +1,444 @@
+CRITICAL - 2021-04-08 13:53:20 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('processos.php')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 14:02:15 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 14:02:30 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 14:10:43 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('showme', 'Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 14:11:02 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('showme', 'Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 14:11:21 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 14:17:21 --> syntax error, unexpected token "<", expecting end of file
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/index', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(26): view('pages/index', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 14:17:56 --> require_once(app/Controllers/Pages.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\index.php(2): require_once()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/index', Array, true)
+#5 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(26): view('pages/index', Array)
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index')
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-08 14:56:59 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('idex-cadastro')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 14:57:04 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('idex-cadastrar')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 14:57:32 --> syntax error, unexpected variable "$retorno"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(26): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 14:59:33 --> syntax error, unexpected variable "$retorno"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(26): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 15:35:59 --> include_once(conexao.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\templates\header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(co...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Projeto-Integrador\app\Views\templates\header.php(3): include_once()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#5 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(25): view('templates/heade...', Array)
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-08 15:37:29 --> include_once(conexao.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\templates\header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(co...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Projeto-Integrador\app\Views\templates\header.php(3): include_once()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#5 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(25): view('templates/heade...', Array)
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-08 15:37:30 --> include_once(conexao.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\templates\header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(co...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Projeto-Integrador\app\Views\templates\header.php(3): include_once()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#5 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(25): view('templates/heade...', Array)
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-08 15:38:18 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\Processo_usuario.php(2): session_start()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#5 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(26): view('pages/Processo_...', Array)
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-08 15:39:29 --> Undefined constant "index"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#3 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(26): view('pages/Processo_...', Array)
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-08 15:39:50 --> Undefined constant "index"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#3 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(26): view('pages/Processo_...', Array)
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-08 15:42:19 --> Undefined variable $index
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\Processo_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(26): view('pages/Processo_...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 15:43:02 --> Undefined variable $index
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\Processo_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(26): view('pages/Processo_...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 15:52:48 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(25): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 15:53:24 --> syntax error, unexpected identifier "USUARIO", expecting "," or ";"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(25): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 15:53:50 --> syntax error, unexpected identifier "USUARIO", expecting "," or ";"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(25): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 15:54:28 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('idex-cadastro')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 15:54:30 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('idex-cadastro')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 15:55:45 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 16:04:42 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 16:07:01 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 16:08:02 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 16:08:27 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 16:11:40 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 16:11:49 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 16:12:53 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 16:26:23 --> Undefined variable $contador
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\Processo_usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(27): view('../model/Proces...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 16:36:42 --> syntax error, unexpected token ":"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(31): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 16:37:05 --> syntax error, unexpected token ":"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(31): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-cadastro')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 17:52:58 --> syntax error, unexpected token "{", expecting "("
+#0 C:\xampp\htdocs\Projeto-Integrador\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Pages/showme/in...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(818): CodeIgniter\Router\Router->handle('Pages/showme/in...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(387): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-08 18:42:52 --> Invalid file: pages/Processo_anuncio.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Processo_...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 18:44:18 --> Invalid file: pages/Processo_anuncio.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Processo_...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 18:44:27 --> Invalid file: pages/Processo_anuncio.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Processo_...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/Processo_...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(32): view('pages/Processo_...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_anunci...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 18:47:35 --> Invalid file: ../model/anuncio.php
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../model/anunci...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/anunci...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(27): view('../model/anunci...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('anuncio')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 19:28:23 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\login.php(14): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 19:30:46 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\login.php(14): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 19:32:33 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\login.php(14): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 19:33:38 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\login.php(14): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 19:34:26 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\login.php(14): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 19:36:56 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\login.php(14): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 19:44:13 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\Projeto-Integrador\app\model\login.php(14): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 20:09:47 --> syntax error, unexpected variable "$emaillogin"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-08 20:19:44 --> Call to undefined function filter_output()
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#3 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-08 20:35:57 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\Projeto-Integrador\app\model\login.php(2): session_start()
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/login', Array, true)
+#5 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(37): view('../model/login', Array)
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('login')
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -6,6 +6,7 @@
     $tipoAnuncio = filter_input(INPUT_POST, 'tipo', FILTER_SANITIZE_STRING);
     $preco = filter_input(INPUT_POST, 'preco', FILTER_SANITIZE_STRING);
     $descrissao = filter_input(INPUT_POST, 'w3review', FILTER_SANITIZE_STRING);
+    $situacao = 'Disponivel';
 
     $arquivo = $_FILES['arquivo']['name'];
     $_UP['pasta'] = '../public/images/img_anuncios/ ';
@@ -48,15 +49,12 @@
             if(move_uploaded_file($_FILES['arquivo']['tmp_name'], $_UP['pasta']. $nome_final)){
                 //Upload efetuado com sucesso, exibe a mensagem
 
-                $dados_anuncio = "insert into anuncios values (default,'$cidade','$tipoImovel','$tipoAnuncio','$preco','$descrissao','$nome_final')";
+                $idu = $_SESSION['idu'];
+                $dados_anuncio = "insert into anuncios values (default,'$cidade','$tipoImovel','$tipoAnuncio','$preco','$descrissao','$nome_final','$idu','$situacao')";
                 $retorno_anuncio = mysqli_query($conn, $dados_anuncio);
 
                 if(mysqli_insert_id($conn)){
-                    $ida = (int) mysqli_insert_id($conn);
-                    $idu = $_SESSION['idu'];
                     $_SESSION['msg2'] = "true"; 
-                    $queryA = "insert into anunciar (idusuario , idanuncio) values ('$idu', '$ida' )";
-                    $result_q = mysqli_query($conn,$queryA);
             
                     header('Location: index-dashboard');
                     exit();

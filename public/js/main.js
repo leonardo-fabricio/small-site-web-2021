@@ -156,11 +156,16 @@ function fixarNoTopo(){
 
 
 
-function card_btn_click(cidade,tipoimovel,tipoanuncio,descricao,preco){
+function card_btn_click(cidade,tipoimovel,tipoanuncio,descricao,preco,situacao,nome, caminho){
+    document.getElementById('situacao_modal').innerText = situacao;
     document.getElementById('cidade_modal').innerText = cidade;
     document.getElementById('tipoAnuncio_modal').innerText = tipoanuncio;
     document.getElementById('desc_modal').innerText = descricao;
     document.getElementById('preco_modal').innerText = preco;
     document.getElementById('tipoImovel_modal').innerText = tipoimovel;
+    document.getElementById('nomeAnunciante_modal').innerText = nome;
+    
+    
+
 }
         

@@ -18,11 +18,11 @@ if(!isset($_SESSION['email'])){
                     <br><h5>Preencha todos os dados</h5><hr>
                     <p class="text-one-board">Nome Completo</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="nome" class="fadeIn second zero-raduis" name="nome" placeholder="Nome Completo" pattern="[A-Za-zÀ-ú ']{4,}" readonly="true" required><br><br>
+                    <input type="text" id="nome" class="fadeIn second zero-raduis" name="nome" placeholder="Nome Completo" pattern="[A-Za-zÀ-ú ']{4,}" value="<?php echo $_SESSION['nome'] ?>" readonly="true" required><br><br>
                     
                     <p class="text-one-board">Celular</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="celular" class="fadeIn second zero-raduis" name="celular" placeholder="+99 (99) 9.9999-9999" onkeypress="maskCelular(this)" maxlength="18" readonly=“true” required><br><br>
+                    <input type="text" id="celular" class="fadeIn second zero-raduis" name="celular" placeholder="+99 (99) 9.9999-9999" onkeypress="maskCelular(this)" value="<?php echo $_SESSION['celular'] ?>" maxlength="18" readonly=“true” required><br><br>
 
                     <p class="text-one-board">Email</p>
                     <p class="obrigatorio">*</p>

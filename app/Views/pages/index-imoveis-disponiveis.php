@@ -23,7 +23,7 @@
 
 
 
-            $query = "select * from anuncios";
+            $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id order by anuncios.cidade";
             $result = mysqli_query($conn, $query);
 
             while ($dados_banco = mysqli_fetch_array($result)){
@@ -32,10 +32,13 @@
                 $tipoAnuncio = $dados_banco['tipoAnuncio'];
                 $preco = $dados_banco['preco'];
                 $descrissao = $dados_banco['descricao'];
+                $caminho = $dados_banco['caminho'];
+                $situacao = $dados_banco['situacao'];
+                $nome = $dados_banco['nome'];
         ?>
         
         <div id="card IdImovel-<?php echo $dados_banco['id'];?>" class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                <img src="../../../public/images/card1.jpg" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
+                <img src="../../../public/images/img_anuncios/ <?php echo $caminho; ?>" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
                 <div class="card-body">
                     <b><h5 id="tipoImovel" class="card-title"><?php echo "$tipoImovel" ?></h5></b>
                     <p id="descricao" class="card-text"><?php echo "$descrissao" ?></p>
@@ -46,7 +49,7 @@
                     <li id="tipoAnuncio" class="list-group-item"><b>Tipo: </b><?php echo "$tipoAnuncio" ?></li>
                 </ul>
                 <div class="card-body">
-                <input onclick="card_btn_click('<?php echo $cidade; ?>','<?php echo $tipoImovel; ?>','<?php echo $tipoAnuncio; ?>','<?php echo $descrissao; ?>','<?php echo $preco; ?>')" type="submit" class="fadeIn fourth zero-raduis view_data_modal" value="Ver Imóvel">
+                <input onclick="card_btn_click('<?php echo $cidade; ?>','<?php echo $tipoImovel; ?>','<?php echo $tipoAnuncio; ?>','<?php echo $descrissao; ?>','<?php echo $preco; ?>', '<?php echo $situacao;?>', '<?php echo $nome;?>', '<?php echo $caminho; ?>')" type="submit" class="fadeIn fourth zero-raduis view_data_modal" value="Ver Imóvel">
                 </div>
         </div> 
         
@@ -73,7 +76,7 @@
             </div>
             <div class="modal-body">
                 <div class="imagem-modal-ap">
-                    <img id="imagemModal" src="../../../public/images/card1.jpg" class="img-thumbnail" alt="Imagem do Imóvel">
+                    <img id="imagemModal" src="../../../public/images/img_anuncios/ " class="img-thumbnail" alt="Imagem do Imóvel">
                 </div>
                 <div class="texto-imagem-modal">
                     <p><b>Nome do Anunciante: </b><span id="nomeAnunciante_modal"></span></p>
@@ -81,7 +84,7 @@
                     <p ><b>Tipo de Anúncio: </b><span id="tipoAnuncio_modal"></span></p>
                     <p ><b>Descrição do Imóvel: </b><span id="desc_modal"></span></p>
                     <p ><b>Preço: </b><span id="preco_modal"></span></p>
-                    <p class="alert alert-success"><b>Situação: </b>Disponível</p>
+                    <p class="alert alert-success"><b>Situação: </b><span id="situacao_modal"></span></p>
                 </div>
             </div>
             <div class="modal-footer">

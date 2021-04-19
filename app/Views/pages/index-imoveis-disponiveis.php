@@ -5,7 +5,7 @@
     <form class="form-search" method="POST" id="s" action="index-imoveis-disponiveis">
         <div class="input-append">
             <!-- <p>Pesquise um Imóvel</p> -->
-            <input type="text" class="input-medium search-query" name="s" placeholder="Pesquisar por Rua, Cidade, Local, etc..">
+            <input type="text" class="input-medium search-query" list = "historico" name="pesquisa" placeholder="Pesquisar por Rua, Cidade, Local, etc..">
             <button id="button-search" class="btn btn-outline-secondary" type="submit">Pesquisar</button>
         </div>
     </form>
@@ -19,13 +19,17 @@
             $senhaserver = "";
             $dbnome = "interiorimoveis";
             $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
-
-
-
-
-            $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id order by anuncios.cidade";
-            $result = mysqli_query($conn, $query);
-
+            $nome = "";
+            $pesquisa = filter_input(INPUT_POST, 'pesquisa', FILTER_SANITIZE_STRING);
+            if($pesquisa == ''){
+                $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id order by anuncios.cidade";
+                $result = mysqli_query($conn, $query);
+                
+            }else{
+                $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id and (anuncios.cidade like '%$pesquisa%' or anuncios.tipoImovel like '%$pesquisa%' or anuncios.tipoAnuncio like '%$pesquisa%') ";
+                $result = mysqli_query($conn, $query);
+                $pesquisa="";
+            }
             while ($dados_banco = mysqli_fetch_array($result)){
                 $cidade = $dados_banco['cidade'];
                 $tipoImovel = $dados_banco['tipoImovel'];
@@ -99,3 +103,16 @@
         </div>
     </div>
     <!-- MODAL -->
+    <!-- DATALIST OU HISTORICO-->
+    <datalist id = "historico"> 
+            <option value="Casa"></option>
+            <option value="Apartamento"></option>
+            <option value="Fazenda"></option>
+            <option value="Quitinete"></option>
+            <option value="Aluguel"></option>
+            <option value="Venda"></option>
+            <option value="Alexandria"></option>
+            <option value="Rafael Fernandes"></option>
+            <option value="Pau dos ferros"></option>
+            <option value="Marcelino vieira"></option>
+    </datalist>

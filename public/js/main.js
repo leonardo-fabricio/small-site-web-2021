@@ -154,9 +154,9 @@ function fixarNoTopo(){
     }
 }
 
+var caminho_modal = "";
 
-
-function card_btn_click(cidade,tipoimovel,tipoanuncio,descricao,preco,situacao,nome, caminho){
+function card_btn_click(cidade,tipoimovel,tipoanuncio,descricao,preco,situacao,nome,caminho,celular,email){
     document.getElementById('situacao_modal').innerText = situacao;
     document.getElementById('cidade_modal').innerText = cidade;
     document.getElementById('tipoAnuncio_modal').innerText = tipoanuncio;
@@ -164,8 +164,9 @@ function card_btn_click(cidade,tipoimovel,tipoanuncio,descricao,preco,situacao,n
     document.getElementById('preco_modal').innerText = preco;
     document.getElementById('tipoImovel_modal').innerText = tipoimovel;
     document.getElementById('nomeAnunciante_modal').innerText = nome;
-    
-    
+    document.getElementById('imagemModal').src = ("../../../public/images/img_anuncios/ "+caminho);
+    //document.getElementById('celular_modal').onclick = "location.href='https://api.whatsapp.com/send?phone=' +celular";
 
 }
+
         

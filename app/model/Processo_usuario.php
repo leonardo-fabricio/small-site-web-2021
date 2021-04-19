@@ -10,16 +10,12 @@ $cep = filter_input(INPUT_POST, 'cep', FILTER_SANITIZE_STRING);
 $cidade = filter_input(INPUT_POST, 'cidade', FILTER_SANITIZE_STRING);
 
 //inserindo dados no banco
-$result_usuario = "insert into usuario values (default,'$nome','$celular','$email','$senha','$cidade','$cep')";
+$result_usuario = "insert into usuario (nome,celular,email,senha,cidade,cep) values ('$nome','$celular','$email','$senha','$cidade','$cep')";
 $retorno = mysqli_query($conn, $result_usuario);
 
 //verificando se a conexao foi feita
 if(mysqli_insert_id($conn)){
-    $_SESSION['idu'] = (int) mysqli_insert_id($conn);
-    $_SESSION['nome'] = $nome;
-    $_SESSION['email'] = $email;
     $_SESSION['msg'] = "true";
-    $_SESSION['celular'] = $celular;
     header('Location: index-login');
 
     exit();

@@ -44,7 +44,7 @@
 
                 <form name="validarLogin" action="login" method="POST" onsubmit="return senhaLoginInvalida();"> <!--action="dashboard.php"-->
                     <input type="email" id="email" class="fadeIn second zero-raduis" name="email" placeholder="Email" required>
-                    <input type="text" id="password" class="fadeIn third zero-raduis" name="senha" placeholder="Senha" minlength="6" required>
+                    <input type="password" id="password" class="fadeIn third zero-raduis" name="senha" placeholder="Senha" minlength="6" required>
                     <div id="formFooter">
                         <a class="underlineHover" href="index-esqueceu-senha">Esqueceu a senha?</a>
                     </div>

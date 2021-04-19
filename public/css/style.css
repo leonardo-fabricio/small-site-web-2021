@@ -653,7 +653,7 @@ textarea:hover{
 }
 
 #solicitarButton{
-    margin-top: 30px !important;
+    text-align: center !important;
 }
 
 .img-thumbnail{
@@ -870,7 +870,19 @@ textarea:hover{
  #solicitarButton input{
     text-align: center !important ;
 } 
+#descricao{
+    width: 14.9rem !important; /* largura */
+    height: 3.5rem !important; /* altura */
+    /* max-height: 3rem; */
+    margin-top: -2px;
+    margin-bottom: -3px;
+    overflow: auto;
+}
 
+.card-img-top{
+    width: 15.9rem;
+    height: 10.5rem;
+}
 /* .modal.fade{
     font-family: 'Source Serif Pro', serif;
 } */

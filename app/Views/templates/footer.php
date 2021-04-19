@@ -43,6 +43,7 @@
     <?php 
     unset($_SESSION['msg']);
     unset($_SESSION['msg3']);
+    $aux = "";
     ?>
     
     <!-- FIM RODAPE -->

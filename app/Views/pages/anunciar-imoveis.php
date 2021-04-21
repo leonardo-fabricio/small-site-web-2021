@@ -55,8 +55,8 @@ if(!isset($_SESSION['email'])){
                     
                     <div class="mb-3">
                         <input name="arquivo" type="file" id="inputImagem" class="form-control" accept="image/png, image/jpeg, image/jpg" maxlength="2048" aria-label="file example" required multiple>
-                        <div class="invalid-feedback">Example invalid form file feedback</div>
-                    </div>
+                        <div class="invalid-feedback">Example invalid form file feedback</div> 
+                    </div> 
                     
                     <!-- <input type="text" id="imagem" class="fadeIn second zero-raduis" name="imagem" placeholder="R$ 000.000" required><br><br> -->
 

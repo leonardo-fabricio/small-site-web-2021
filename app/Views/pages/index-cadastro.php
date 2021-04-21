@@ -16,7 +16,7 @@
                     <br>
                 </div>
 
-                <form name="validar" method="POST" action="Processo_usuario" onsubmit="return validarCampos();">
+                <form name="validar" method="POST" action="Processo_usuario" enctype="multipart/form-data" onsubmit="return validarCampos();">
                     <p class="text-one-board">Nome Completo</p>
                     <p class="obrigatorio">*</p>
                     <input type="text" id="nome" class="fadeIn second zero-raduis" name="nome" placeholder="Nome Completo" pattern="[A-Za-zÀ-ú ']{4,}" required><br><br>
@@ -39,12 +39,19 @@
 
                     <p class="text-one-board">Senha</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="senha" class="fadeIn third zero-raduis" name="senha" placeholder="Senha" minlength="6" required><br><br>
+                    <input type="password" id="senha" class="fadeIn third zero-raduis" name="senha" placeholder="Senha" minlength="6" required><br><br>
 
                     <p class="text-one-board">Confirmar Senha</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="password" class="fadeIn third zero-raduis" name="csenha" placeholder="Confirmar Senha" minlength="6" required><br><br>
+                    <input type="password" id="password" class="fadeIn third zero-raduis" name="csenha" placeholder="Confirmar Senha" minlength="6" required><br><br>
                     <p id="msgErro"></p>
+
+                    <p class="text-one-board">Selecione uma imagem de Perfil</p>
+                    <p class="obrigatorio">*</p>
+                    <div class="mb-3">
+                        <input name="arquivo" type="file" id="inputImagem" class="form-control" accept="image/png, image/jpeg, image/jpg" maxlength="2048" aria-label="file example" required multiple>
+                        <div class="invalid-feedback">Example invalid form file feedback</div>
+                    </div> 
                    
                     <input type="submit" class="fadeIn fourth zero-raduis" onclick="validarCampos()" value="Criar">
                 </form>

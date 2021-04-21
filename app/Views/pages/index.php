@@ -43,8 +43,8 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </a>
+        </div>
     </div>
-</div>
         <!-- FIM CAROUSEL -->
         <br>
         <hr/>
@@ -53,7 +53,7 @@
         <div id="cards-compra">
         <!-- <h2 id="trecho2">Resultados da busca de (textoDigitado)</h2> -->
             <div class="container">
-                <h4 id="location" class="form-label">IMÓVEIS PRÓXIMOS A SUA LOCALIZAÇÃO!</h4>
+                
                 <?php
                     $servidor = "localhost";
                     $usuario = "root";
@@ -61,11 +61,17 @@
                     $dbnome = "interiorimoveis";
                     $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
                     $aux ="";
-                    $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id order by anuncios.cidade";
-                    $result = mysqli_query($conn, $query);
-                    
-                    while ($dados_banco = mysqli_fetch_array($result)){
-                        $cidade = $dados_banco['cidade'];
+                    if(isset($_SESSION['cidade'])){
+                        $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id and anuncios.cidade_anuncio = '".$_SESSION['cidade']."'";
+                        $result = mysqli_query($conn, $query);
+                        echo "<h4 id='location' class='form-label'>IMÓVEIS PRÓXIMOS A SUA LOCALIZAÇÃO!</h4>"; 
+                    }else{
+                        $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id order by anuncios.cidade_anuncio";
+                        $result = mysqli_query($conn, $query); 
+                        echo "<h4 id='location' class='form-label'>IMÓVEIS DISPONÍVEIS PARA VOCÊ!</h4>";
+                    }
+                    while ($dados_banco = mysqli_fetch_array($result)){// oh, as v
+                        $cidade = $dados_banco['cidade_anuncio'];
                         $tipoImovel = $dados_banco['tipoImovel'];
                         $tipoAnuncio = $dados_banco['tipoAnuncio'];
                         $preco = $dados_banco['preco'];
@@ -90,13 +96,14 @@
                             <li id="cidade" class="list-group-item"><b>Cidade: </b><?php echo "$cidade" ?></li>
                             <li id="tipoAnuncio" class="list-group-item"><b>Tipo: </b><?php echo "$tipoAnuncio" ?></li>
                         </ul>
-                        <div class="card-body">
-                            <input onclick="card_btn_click('<?php echo $cidade; ?>','<?php echo $tipoImovel; ?>','<?php echo $tipoAnuncio; ?>','<?php echo $descrissao; ?>','<?php echo $preco; ?>', '<?php echo $situacao;?>', '<?php echo $nome;?>','<?php echo $caminho; ?>','<?php echo $celular; ?>','<?php echo $email; ?>')" type="submit" class="fadeIn fourth zero-raduis view_data_modal" value="Ver Imóvel">
+                        <div class="card-body"> 
+                            <input id="testee" onclick="card_btn_click('<?php echo $cidade; ?>','<?php echo $tipoImovel; ?>','<?php echo $tipoAnuncio; ?>','<?php echo $descrissao; ?>','<?php echo $preco; ?>', '<?php echo $situacao;?>', '<?php echo $nome;?>','<?php echo $caminho; ?>','<?php echo $celular; ?>','<?php echo $email; ?>' )" type="submit" class="fadeIn fourth zero-raduis view_data_modal" value="Ver Imóvel">
                         </div>
                 </div> 
                 
                 
-                <?php } ?>
+                <?php } ?> 
+
                 </div>
             </div>
             <!-- FIM Imoveis disponiveis para compra -->
@@ -110,6 +117,7 @@
         
             <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                
                 <div class="modal-dialog modal-lg"> <!-- caso não for necessário esse tamanho, retirar modal-lg -->
                     <div class="modal-content">
                         <div class="modal-header bg-dark">
@@ -129,19 +137,14 @@
                             <p class="alert alert-success"><b>Situação: </b><span id="situacao_modal"></span></p>
                         </div>
                     </div>
+
                     <div class="modal-footer">
-                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-                        <!-- <button type="button" class="btn btn-primary">Understood</button> -->
                         <div id="botoes-footer">
-                            <input type="submit" onclick="location.href='https://mail.google.com/mail/u/0/?fs=1&to=redbullfc18@gmail.com&tf=cm#'" class="fadeIn fourth zero-raduis botao-footer" value="EMAIL">
-                            <input id="celular_modal" type="submit" onclick="" class="fadeIn fourth zero-raduis botao-footer" value="TELEFONE">
+                                <a href="#" id="email_modal" class="btn btn-primary btn-lg active" target="_blank" role="button">EMAIL</a>
+                                <a href="#" id="celular_modal" class="btn btn-primary btn-lg active" target="_blank" role="button">WHATSAPP</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-            <!-- MODAL -->
-        
-   
-    
-
+        <!-- MODAL -->

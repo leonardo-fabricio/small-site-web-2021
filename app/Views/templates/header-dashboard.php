@@ -17,12 +17,8 @@ $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
     <title>Interior Imóveis - Encontre sua casa, ou seu apartamento aqui</title>
 
     <!-- Bootstrap CSS -->
-    
-   
     <!-- Compiled and minified CSS -->
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
+    <link href="../../../public/css/materialize.min.css" rel="stylesheet">
     <link href="../../../public/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../../public/css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="../../../public/images/favicon.png" />
@@ -33,9 +29,9 @@ $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
     <script src="../../../public/js/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="../../../public/js/bootstrap.min.js"></script>
     <script src="../../../public/js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- INICIO NAV-BAR -->
+    <script src="../../../public/js/materialize.min.js"></script>
 
+    <!-- INICIO NAV-BAR -->
     <header>
         
             <nav id="navegacao" class="navbar navbar-expand-lg">
@@ -58,9 +54,8 @@ $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
                             <li class="nav-item">
                                 <a class="nav-link" href="index-imoveis-disponiveis">Imóveis Disponíveis</a>
                             </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" href="index-imoveis-disponiveis">Fulano de tal</a>
-                            </li> -->
+                            
+
                         </ul>
                     </div>
                 </div>
@@ -74,21 +69,22 @@ $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
                 $_SESSION['celular'] = $dados_banco['celular'];
                 $_SESSION['nome'] = $dados_banco['nome'];
                 $_SESSION['idu'] = $dados_banco['id'];
-
+                $_SESSION['cidade'] = $dados_banco['cidade'];
+                $_SESSION['caminho'] = $dados_banco['caminho_foto'];
             ?>
 
-            <b><h4 id="msg-dashboard">Olá, <?php echo $dados_banco['nome'] ?> ! Administre seus anúncios, Solicitações e muito mais.</h4></b>
+            <b><h4 id="msg-dashboard">Olá, <?php echo $dados_banco['nome'] ?>! Administre seus anúncios, Solicitações e muito mais.</h4></b>
             <br>    
             <ul id="slide-out" class="sidenav">
-                <li><div class="user-view">
+                <li><div class="user-view">// 
                 <div class="background">
                     <img src="https://www.significados.com.br/foto/paisagem-natural-significados.jpg">
                 </div>
-                <a href="#user"><img class="circle" src="https://avatars0.githubusercontent.com/u/48826657?s=460&u=6aeaa5a0aac3e676da1be29492e757abc0369099&v=4'"></a>
-                <a href="#name"><span class="white-text name"></span><?php echo $dados_banco['nome'] ?></a>
-                <a href="#email"><span class="white-text email"><?php echo ($_SESSION['email']); ?></span></a>
+                <a href="#user"><img class="circle" src="../../../public/images/img_usuario/ <?php echo $_SESSION['caminho'];?> "></a>
+                <a href="#name"><span class="white-textName"></span><?php echo $dados_banco['nome'] ?></a>
+                
                 </div></li>
-                <li><a href="#meus-anuncios">Meus Anuncios</a></li>
+                <li><a href="#meus-anuncios">Meus Anúncios</a></li>
                 <li><a href="#solicitacoes-Disponiveis">Solicitações de Imóveis</a></li>
                 <li><a href="#minhas-solicitacoes">Minhas Solicitações</a></li>
                 <li><div class="divider"></div></li>

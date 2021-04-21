@@ -31,7 +31,7 @@
                 $pesquisa="";
             }
             while ($dados_banco = mysqli_fetch_array($result)){
-                $cidade = $dados_banco['cidade'];
+                $cidade = $dados_banco['cidade_anuncio'];
                 $tipoImovel = $dados_banco['tipoImovel'];
                 $tipoAnuncio = $dados_banco['tipoAnuncio'];
                 $preco = $dados_banco['preco'];

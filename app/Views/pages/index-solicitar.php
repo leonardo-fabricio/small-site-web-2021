@@ -1,8 +1,13 @@
 <?php
+if(isset($_SESSION['msg5'])){
+    if($_SESSION['msg5'] == 'false')
+        echo "<script> alert('Solicitação Não Efetuada'); </script>";
+    unset($_SESSION['msg5']);
+}
 if(!isset($_SESSION['email'])){
-    $_SESSION['msg6'] = "<script>
-                            alert('Por favor, realize o login para fazer a solicitação de imóveis!');
-                        </script>";
+    echo "<script>
+                alert('Por favor, realize o login para fazer a solicitação de imóveis!');
+            </script>";
     header('Location: index-login');
     exit;
 }

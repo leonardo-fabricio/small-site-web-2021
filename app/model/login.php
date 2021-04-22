@@ -1,4 +1,5 @@
 <?php 
+    session_start();
    include_once ('conexao.php');
 
     if(empty($_POST['email']) || empty($_POST['senha'])){ //se querer entrar digitando no navegador

@@ -902,17 +902,17 @@ textarea:hover{
     text-align: center !important;
     background-color: #a68c69 !important;
     border-radius: 11px !important;
-    width: 150px !important;
+    width: 220px !important;
     border-color: #a68c69 !important;
     margin-bottom: 10px !important;
 }
 
 #celular_modal{
     margin-top: -59.5px !important;
-    margin-right: 200px !important;
+    margin-right: 100px !important;
     background-color: #a68c69 !important;
     border-radius: 11px !important;
-    width: 150px !important;
+    width: 220px !important;
     border-color: #a68c69 !important;
     margin-bottom: 10px !important;
     height: 50px !important;
@@ -921,13 +921,13 @@ textarea:hover{
 #celular_modal:hover{
     background-color: #63523c !important;
     transition-duration: 400ms;
-    width: 160px !important;
+    /* width: 160px !important; */
 }
 
 #email_modal:hover{
     background-color: #63523c !important;
     transition-duration: 400ms;
-    width: 160px !important;
+    /* width: 160px !important; */
 }
 
 .waves-effect{
@@ -942,4 +942,28 @@ textarea:hover{
 .white-textName:hover{
     color: white !important;
     background-color: white !important;
+}
+
+#email_solicitacao{
+    margin-right: 0px !important;
+    text-align: center !important;
+    background-color: #a68c69 !important;
+    border-radius: 11px !important;
+    /* width: 220px !important; */
+    border-color: #a68c69 !important;
+    margin-bottom: 10px !important; 
+    height: 45px;
+    width: 135px !important;
+}
+
+#celular_solicitacao{
+    margin-right: 60px !important;
+    text-align: center !important;
+    background-color: #a68c69 !important;
+    border-radius: 11px !important;
+    /* width: 220px !important; */
+    border-color: #a68c69 !important;
+    margin-bottom: 10px !important;
+    height: 45px; 
+    width: 135px !important;
 }

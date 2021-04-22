@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include_once ("conexao.php");
 
     $cidade = filter_input(INPUT_POST, 'cidade', FILTER_SANITIZE_STRING);

@@ -18,7 +18,7 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="../../../public/images/carrossel.jpg" class="d-block w-100" alt="Imagem do Carrossel">
+                    <img src="../../../public/images/01-decoracao-apartamento-pequeno-quitinete-rede-balanco.jpg" class="d-block w-100" alt="Imagem do Carrossel">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Interior Imóveis</h5>
                         <p>Pau dos Ferros/RN</p>
@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="../../../public/images/carrossel.jpg" class="d-block w-100" alt="Imagem do Carrossel">
+                    <img src="../../../public/images/HOME-apartamento-cobertura-com-cara-de-casa-decoracao-historias-de-casa.jpg" class="d-block w-100" alt="Imagem do Carrossel">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Interior Imóveis</h5>
                         <p>Anuncie, Alugue, ou compre. Quem decide é você!</p>

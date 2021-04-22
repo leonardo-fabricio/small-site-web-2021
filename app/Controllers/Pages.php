@@ -23,29 +23,29 @@
             }
             
             else if($page == "Processo_usuario"){
-                    echo view('templates/header', $data);
-                    echo view('../model/'.$page, $data);
-                    echo view('templates/footer', $data);
+                echo view('../model/'.$page, $data);
+                    
             }
             else if($page == "Processo_anuncio"){
-                echo view('templates/header', $data);
                 echo view('../model/'.$page, $data);
-                echo view('templates/footer', $data);
             }
             else if($page == "login"){
-                echo view('templates/header', $data);
+                
                 echo view('../model/'.$page, $data);
-                echo view('templates/footer', $data);
+                
             }
             else if($page == "Processo_soli"){
-                echo view('templates/header', $data);
+                
                 echo view('../model/'.$page, $data);
-                echo view('templates/footer', $data);
+                
             }
             else if($page == "visualizarmodal"){
-                echo view('templates/header', $data);
+                
                 echo view('../model/'.$page, $data);
-                echo view('templates/footer', $data);
+                
+            }
+            else if($page == "Remover_anuncio"){
+                echo view('../model/'.$page, $data);
             }
             else if($page == "deslogar"){
                 

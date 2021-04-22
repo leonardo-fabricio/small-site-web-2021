@@ -7,6 +7,21 @@ $senhaserver = "";
 $dbnome = "interiorimoveis";
 
 $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
+if(isset($_SESSION['msg5'])){
+    if($_SESSION['msg5'] = 'true')
+    echo "<script> alert('Solicitação Efetuada com Sucesso'); </script>";
+
+    unset($_SESSION['msg5']);
+}
+if(isset($_SESSION['msg2'])){
+    if($_SESSION['msg2']=='true')
+    echo "<script> alert('Imóvel Anunciado Com Sucesso'); </script>";
+    unset($_SESSION['msg2']);
+}
+if(isset($_SESSION['msg7'])){
+    echo "<script> alert('Removido Com Sucesso!'); </script>";
+    unset($_SESSION['msg7']);
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -62,7 +77,8 @@ $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
             </nav>
         
             <?php 
-                $query = "select * from usuario where email = '". $_SESSION['email']."' ";
+            $e = $_SESSION['email'];
+                $query = "select * from usuario where email = '$e' ";
                 $resultado = mysqli_query($conn, $query);
                 $dados_banco = mysqli_fetch_array($resultado);
 
@@ -76,7 +92,7 @@ $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
             <b><h4 id="msg-dashboard">Olá, <?php echo $dados_banco['nome'] ?>! Administre seus anúncios, Solicitações e muito mais.</h4></b>
             <br>    
             <ul id="slide-out" class="sidenav">
-                <li><div class="user-view">// 
+                <li><div class="user-view">
                 <div class="background">
                     <img src="https://www.significados.com.br/foto/paisagem-natural-significados.jpg">
                 </div>

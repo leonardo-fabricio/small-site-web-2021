@@ -1,33 +1,23 @@
 
 <?php
-            $servidor = "localhost";
-            $usuario = "root";
-            $senhaserver = "";
-            $dbnome = "interiorimoveis";
-            $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
+    $servidor = "localhost";
+    $usuario = "root";
+    $senhaserver = "";
+    $dbnome = "interiorimoveis";
 
-            $query = "select * from anuncios where idUsuario = '". $_SESSION['idu']."'";
-            $result = mysqli_query($conn, $query);
+    $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
+    $query = "select * from anuncios where idUsuario = '". $_SESSION['idu']."'";
+    $result = mysqli_query($conn, $query);
 
-            function removerBanco ($id,$opcao,$conn){
-                if($opcao == 1){
-                    $query_delete = "delete from anuncios where id = '$id' ";
-                    $resutado_delete = mysqli_query($conn,$query_delete);
-                }else{
-                    $query_delete = "delete from solicitacoes where id = '$id'";
-                    $resutado_delete = mysqli_query($conn,$query_delete);
-                }
-            }
-        
-            while ($dados_banco = mysqli_fetch_array($result)){
-                $cidade = $dados_banco['cidade_anuncio'];
-                $tipoImovel = $dados_banco['tipoImovel'];
-                $tipoAnuncio = $dados_banco['tipoAnuncio'];
-                $preco = $dados_banco['preco'];
-                $descrissao = $dados_banco['descricao'];
-                $caminho = $dados_banco['caminho'];
-                $situacao = $dados_banco['situacao'];
-                $id = $dados_banco['id'];
+    while ($dados_banco = mysqli_fetch_array($result)){
+        $cidade = $dados_banco['cidade_anuncio'];
+        $tipoImovel = $dados_banco['tipoImovel'];
+        $tipoAnuncio = $dados_banco['tipoAnuncio'];
+        $preco = $dados_banco['preco'];
+        $descrissao = $dados_banco['descricao'];
+        $caminho = $dados_banco['caminho'];
+        $situacao = $dados_banco['situacao'];
+        $id = $dados_banco['id'];
 ?>
     <section id="meus-anuncios">
         
@@ -45,7 +35,7 @@
                     </ul>
                     <div class="card-body">
                         <button  type="submit" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-outline-secondary">EDITAR</button>
-                        <button  type="submit"  class="btn btn-outline-danger">REMOVER</button>
+                        <a href="../../Pages/showme/Remover_anuncio?id=<?php echo $id;?>" type="submit"  class="btn btn-outline-danger">REMOVER</a>
                         <button style ="margin-top:4px; margin-left:5px;" type="button" class="btn btn-outline-success">NEGOCIO FECHADO</button>
                     </div>
                 </div>
@@ -71,21 +61,19 @@
             $celular_usuario_solicitacao = $dados_banco2['celular']; 
             
     ?>
-        <section id="solicitacoes-Disponiveis"> 
-            <!-- <h4>Veja solicitações de pessoas que buscam um imóvel</h4> -->
-            
+        <section id="solicitacoes-Disponiveis">
                 <div id="cards-solicitacoes" class="container"> 
                     <div id="card-init" class="row g-0 bg-light position-relative">
                         <div class="col-md-4 mb-md-0 p-md-4">
-                            <img id="imagem-cardSolicitacoes" src="../../../public/images/img_usuario/ <?php echo "$caminho";?> " class="w-50" alt="...">
+                            <img id="imagem-cardSolicitacoes" alt="Imagem do usuario" src="../../../public/images/img_usuario/ <?php echo "$caminho";?> " class="w-50" alt="...">
                         </div>
                         <div class="col-md-8 p-4">
                             <h5 class="mt-0"><?php echo $nome_s?></h5>
                             <p style="font-size = 20px;"><?php echo $cidade_s?></p>
                             <p><?php echo $descrissao_s?></p>
                             
-                            <a href="https://mail.google.com/mail/u/0/?fs=1&to=<?php echo $email_usuario_solicitacao ?>" id="email_solicitacao" class="btn btn-primary btn-lg active" target="_blank" role="button">EMAIL</a>
-                            <a href="https://api.whatsapp.com/send?phone=<?php echo $celular_usuario_solicitacao ?>" id="celular_solicitacao" class="btn btn-primary btn-lg active" target="_blank" role="button">WHATSAPP</a>
+                            <a href="https://mail.google.com/mail/u/0/?fs=1&to=<?php echo $email_usuario_solicitacao?>&su=Novo interesse em Imóvel na plataforma Interior Imóveis.&body=Olá, Acabei de ver sua solicitação na plataforma Interior imóveis e tenho um imóvel que é a sua cara! Poderia me retornar esse email para negociarmos?&tf=cm" id="email_solicitacao" class="btn btn-primary btn-lg active" target="_blank" role="button">EMAIL</a>
+                            <a href="https://api.whatsapp.com/send?phone=<?php echo $celular_usuario_solicitacao ?>&text=Olá, Acabei de ver sua solicitação na plataforma Interior imóveis e tenho um imóvel que é a sua cara! Poderia me retornar essa mensagem para negociarmos?" id="celular_solicitacao" class="btn btn-primary btn-lg active" target="_blank" role="button">WHATSAPP</a>
                         </div>
                     </div><br>
                 </div>
@@ -107,7 +95,7 @@
                     <div id="cards-solicitacoes" class="container">
                         <div id="card-init" class="row g-0 bg-light position-relative">
                             <div class="col-md-4 mb-md-0 p-md-4">
-                                <img id="imagem-cardSolicitacoes" src="../../../public/images/img_usuario/ <?php echo $_SESSION['caminho'];?>" class="w-50" alt="...">
+                                <img id="imagem-cardSolicitacoes" alt="Imagem do usuario" src="../../../public/images/img_usuario/ <?php echo $_SESSION['caminho'];?>" class="w-50" alt="...">
                             </div>
                             <div class="col-md-8 p-4">
                                 <h5 class="mt-0"><?php echo $_SESSION['nome'] ?></h5>
@@ -129,17 +117,17 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Editar os dados</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">SALVAR</button>
             </div>
             </div>
         </div>

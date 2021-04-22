@@ -167,9 +167,7 @@ function card_btn_click(cidade,tipoimovel,tipoanuncio,descricao,preco,situacao,n
     document.getElementById('tipoImovel_modal').innerText = tipoimovel;
     document.getElementById('nomeAnunciante_modal').innerText = nome;
     document.getElementById('imagemModal').src = ("../../../public/images/img_anuncios/ "+caminho);
-    // alert(celular); //testa? blz, mas acho q ainda vai dar problema de escopo
-    // alert(email);
-    // document.getElementById('celular_modal').onclick.value = "location.href='https://api.whatsapp.com/send?phone='" +celular;
+    
     var link = document.getElementById("email_modal");
     link.setAttribute("href", "https://mail.google.com/mail/u/0/?fs=1&to="+ email + "&su=Novo interesse em Imóvel na plataforma Interior Imóveis." + "&body=Olá, Fiquei bastante interessado no seu Imóvel, poderia me retornar esse email para negociarmos?" +"&tf=cm");
 
@@ -178,12 +176,3 @@ function card_btn_click(cidade,tipoimovel,tipoanuncio,descricao,preco,situacao,n
 
 }
 
-function dados_solicitacoes(celular_solicitacao, email_solicitacao){
-    var link3 = document.getElementById("email_solicitacao");
-    link3.setAttribute("href", "https://mail.google.com/mail/u/0/?fs=1&to="+ email);
-
-    var link4 = document.getElementById("celular_solicitacao");
-    link4.setAttribute("href", "https://api.whatsapp.com/send?phone=" + celular);
-    alert(celular);
-    alert(email);
-}

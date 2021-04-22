@@ -1,4 +1,11 @@
 <?php 
+if(isset($_SESSION['msg2'])){
+    if($_SESSION['msg2'] == 'false'){
+        echo "<script>
+            alert('Anuncio Não Realizado!');
+        </script>";
+    }
+}
 if(!isset($_SESSION['email'])){
     $_SESSION['msg6'] = "<script>
                             alert('Por favor, realize o login para poder anunciar seus imóveis!');

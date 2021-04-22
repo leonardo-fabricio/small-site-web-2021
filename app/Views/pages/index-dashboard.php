@@ -20,7 +20,7 @@
             }
         
             while ($dados_banco = mysqli_fetch_array($result)){
-                $cidade = $dados_banco['cidade'];
+                $cidade = $dados_banco['cidade_anuncio'];
                 $tipoImovel = $dados_banco['tipoImovel'];
                 $tipoAnuncio = $dados_banco['tipoAnuncio'];
                 $preco = $dados_banco['preco'];
@@ -44,7 +44,7 @@
                         <li id="tipoAnuncio" class="list-group-item"><b>Tipo: </b><?php echo "$tipoAnuncio" ?></li>
                     </ul>
                     <div class="card-body">
-                        <button  type="submit" data-bs-toggle="modal" data-bs-target="#modal1" class="btn btn-outline-secondary">EDITAR</button>
+                        <button  type="submit" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-outline-secondary">EDITAR</button>
                         <button  type="submit"  class="btn btn-outline-danger">REMOVER</button>
                         <button style ="margin-top:4px; margin-left:5px;" type="button" class="btn btn-outline-success">NEGOCIO FECHADO</button>
                     </div>
@@ -67,12 +67,14 @@
             $descrissao_s = $dados_banco2['descricao'];
             $nome_s = $dados_banco2['nome'];
             $caminho = $dados_banco2['caminho_foto'];
+            $email_usuario_solicitacao = $dados_banco2['email'];
+            $celular_usuario_solicitacao = $dados_banco2['celular']; 
             
     ?>
         <section id="solicitacoes-Disponiveis"> 
             <!-- <h4>Veja solicitações de pessoas que buscam um imóvel</h4> -->
             
-                <div id="cards-solicitacoes" class="container">
+                <div id="cards-solicitacoes" class="container"> 
                     <div id="card-init" class="row g-0 bg-light position-relative">
                         <div class="col-md-4 mb-md-0 p-md-4">
                             <img id="imagem-cardSolicitacoes" src="../../../public/images/img_usuario/ <?php echo "$caminho";?> " class="w-50" alt="...">
@@ -82,9 +84,8 @@
                             <p style="font-size = 20px;"><?php echo $cidade_s?></p>
                             <p><?php echo $descrissao_s?></p>
                             
-                            <input type="submit" onclick="location.href='https://mail.google.com/mail/u/0/?fs=1&to=redbullfc18@gmail.com&tf=cm#'" class="fadeIn fourth zero-raduis botao-footer2" value="EMAIL">
-                            <input type="submit" onclick="location.href='https://api.whatsapp.com/send?phone=5584996120413'" class="fadeIn fourth zero-raduis botao-footer2" value="TELEFONE">
-
+                            <a href="https://mail.google.com/mail/u/0/?fs=1&to=<?php echo $email_usuario_solicitacao ?>" id="email_solicitacao" class="btn btn-primary btn-lg active" target="_blank" role="button">EMAIL</a>
+                            <a href="https://api.whatsapp.com/send?phone=<?php echo $celular_usuario_solicitacao ?>" id="celular_solicitacao" class="btn btn-primary btn-lg active" target="_blank" role="button">WHATSAPP</a>
                         </div>
                     </div><br>
                 </div>
@@ -123,53 +124,24 @@
         </section>
 
     <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg"> <!-- caso não for necessário esse tamanho, retirar modal-lg -->
-           <div class="modal-content">
-            <div class="modal-header bg-dark">
-                <h5 class="modal-title" id="staticBackdropLabel">Apartamento</h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
-            <form>
-                    <p class="text-one-board">Cidade</p>
-                    <p class="obrigatorio">*</p>
-                    <input type="text" id="endereco" class="fadeIn second zero-raduis" name="endereco" placeholder="Ex: Pau dos Ferros/RN" required><br><br>
-
-                    <p class="text-one-board">Tipo de Anúncio</p>
-                    <p class="obrigatorio">*</p><br><br>
-                    
-                    <p>
-                        <label>
-                        <input type="radio" id="venda" name="tipo" value="venda">
-                            <span>Venda de Imóvel</span>
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                        <input id="aluguel" type="radio" id="aluguel" name="tipo" value="aluguel">
-                            <span>Aluguel de Imóvel</span>
-                        </label>
-                    </p>
-
-                    <br><p class="text-one-board">Tipo de Imóvel</p>
-                    <p class="obrigatorio">*</p><br>
-                    <input type="text" id="tipo-imovel" class="fadeIn second zero-raduis" name="tipo-imovel" placeholder="Casa, Apartamento, Fazenda, Hotel" required><br><br>
-                    
-                    <p class="text-one-board">Preço</p>
-                    <p class="obrigatorio">*</p>
-                    <input type="text" id="preco" class="fadeIn second zero-raduis" name="preco" placeholder="R$ 000.000" required><br><br>
-
-                   
-                    <br><p class="text-one-board">Faça uma breve descrição do Imóvel (Opcional)</p>
-                    <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Ex: Casa com 2 salas, 3 quartos climatizados, próximo ao IFRN Pau do Ferros"></textarea>
-                    <p id="msgErro"></p>
-            </form>
+                ...
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-outline-dark">SALVAR</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
             </div>
         </div>
-    </div>
+        </div>
     <!-- MODAL -->

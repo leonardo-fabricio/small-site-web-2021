@@ -85,7 +85,7 @@
 
                 ?>
                 
-                <div id="card IdImovel-<?php echo $dados_banco['id'];?>" class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <div id="card IdImovel-<?php echo $dados_banco['id'];?>" class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="card_btn_click('<?php echo $cidade; ?>','<?php echo $tipoImovel; ?>','<?php echo $tipoAnuncio; ?>','<?php echo $descrissao; ?>','<?php echo $preco; ?>', '<?php echo $situacao;?>', '<?php echo $nome;?>','<?php echo $caminho; ?>','<?php echo $celular; ?>','<?php echo $email; ?>' )">
                         <img src="../../../public/images/img_anuncios/ <?php echo $caminho; ?>" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
                         <div class="card-body">
                             <b><h5 id="tipoImovel" class="card-title"><?php echo "$tipoImovel" ?></h5></b>

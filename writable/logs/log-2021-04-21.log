@@ -483,3 +483,71 @@ CRITICAL - 2021-04-21 15:45:56 --> mysqli_fetch_array(): Argument #1 ($result) m
 #7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2021-04-21 17:29:29 --> mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\index-imoveis-disponiveis.php(33): mysqli_fetch_array(false)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/index-imo...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(57): view('pages/index-imo...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-imoveis-d...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 17:30:33 --> mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\index-imoveis-disponiveis.php(33): mysqli_fetch_array(false)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/index-imo...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(57): view('pages/index-imo...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-imoveis-d...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 17:39:04 --> Undefined variable $celular
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\index-imoveis-disponiveis.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/index-imo...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(57): view('pages/index-imo...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-imoveis-d...')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 17:52:05 --> Unclosed '{' on line 45
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(27): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-21 18:09:50 --> syntax error, unexpected variable "$nome_final", expecting "," or ";"
+#0 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('../model/Proces...', Array, true)
+#2 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(27): view('../model/Proces...', Array)
+#3 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('Processo_usuari...')
+#4 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-21 18:18:06 --> Undefined array key "cidade"
+#0 C:\xampp\htdocs\Projeto-Integrador\app\Views\pages\index-dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projeto-Integrador\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Projeto-Integrador\system\Common.php(1250): CodeIgniter\View\View->render('pages/index-das...', Array, true)
+#4 C:\xampp\htdocs\Projeto-Integrador\app\Controllers\Pages.php(20): view('pages/index-das...', Array)
+#5 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme('index-dashboard')
+#6 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 19:05:17 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(938): App\Controllers\Pages->showme(' 55(99)9.1111-1...')
+#1 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\Projeto-Integrador\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projeto-Integrador\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -22,11 +22,11 @@
             $nome = "";
             $pesquisa = filter_input(INPUT_POST, 'pesquisa', FILTER_SANITIZE_STRING);
             if($pesquisa == ''){
-                $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id order by anuncios.cidade";
+                $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id order by anuncios.cidade_anuncio";
                 $result = mysqli_query($conn, $query);
                 
             }else{
-                $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id and (anuncios.cidade like '%$pesquisa%' or anuncios.tipoImovel like '%$pesquisa%' or anuncios.tipoAnuncio like '%$pesquisa%') ";
+                $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id and (anuncios.cidade_anuncio like '%$pesquisa%' or anuncios.tipoImovel like '%$pesquisa%' or anuncios.tipoAnuncio like '%$pesquisa%') ";
                 $result = mysqli_query($conn, $query);
                 $pesquisa="";
             }
@@ -39,9 +39,12 @@
                 $caminho = $dados_banco['caminho'];
                 $situacao = $dados_banco['situacao'];
                 $nome = $dados_banco['nome'];
+                $celular = $dados_banco['celular'];
+                $email = $dados_banco['email'];
+                $id = $dados_banco['idUsuario'];
         ?>
         
-        <div id="card IdImovel-<?php echo $dados_banco['id'];?>" class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <div id="card IdImovel-<?php echo $dados_banco['id'];?>" class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="card_btn_click('<?php echo $cidade; ?>','<?php echo $tipoImovel; ?>','<?php echo $tipoAnuncio; ?>','<?php echo $descrissao; ?>','<?php echo $preco; ?>', '<?php echo $situacao;?>', '<?php echo $nome;?>', '<?php echo $caminho; ?>', '<?php echo $celular;?>', '<?php echo $email; ?>')">
                 <img src="../../../public/images/img_anuncios/ <?php echo $caminho; ?>" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
                 <div class="card-body">
                     <b><h5 id="tipoImovel" class="card-title"><?php echo "$tipoImovel" ?></h5></b>
@@ -53,7 +56,7 @@
                     <li id="tipoAnuncio" class="list-group-item"><b>Tipo: </b><?php echo "$tipoAnuncio" ?></li>
                 </ul>
                 <div class="card-body">
-                <input onclick="card_btn_click('<?php echo $cidade; ?>','<?php echo $tipoImovel; ?>','<?php echo $tipoAnuncio; ?>','<?php echo $descrissao; ?>','<?php echo $preco; ?>', '<?php echo $situacao;?>', '<?php echo $nome;?>', '<?php echo $caminho; ?>')" type="submit" class="fadeIn fourth zero-raduis view_data_modal" value="Ver Imóvel">
+                    <input onclick="card_btn_click('<?php echo $cidade; ?>','<?php echo $tipoImovel; ?>','<?php echo $tipoAnuncio; ?>','<?php echo $descrissao; ?>','<?php echo $preco; ?>', '<?php echo $situacao;?>', '<?php echo $nome;?>', '<?php echo $caminho; ?>', '<?php echo $celular;?>', '<?php echo $email; ?>')" type="submit" class="fadeIn fourth zero-raduis view_data_modal" value="Ver Imóvel">
                 </div>
         </div> 
         
@@ -72,37 +75,37 @@
 
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg"> <!-- caso não for necessário esse tamanho, retirar modal-lg -->
-            <div class="modal-content">
-            <div class="modal-header bg-dark">
-                <h5 class="modal-title"><span id="tipoImovel_modal" style="color:white;"></span></h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="imagem-modal-ap">
-                    <img id="imagemModal" src="../../../public/images/img_anuncios/ " class="img-thumbnail" alt="Imagem do Imóvel">
+                
+                <div class="modal-dialog modal-lg"> <!-- caso não for necessário esse tamanho, retirar modal-lg -->
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark">
+                            <h5 class="modal-title"><span id="tipoImovel_modal" style="color:white;"></span></h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    <div class="modal-body">
+                        <div class="imagem-modal-ap">
+                            <img id="imagemModal" src="" class="img-thumbnail" alt="Imagem do Imóvel">
+                        </div>
+                        <div class="texto-imagem-modal">
+                            <p><b>Nome do Anunciante: </b><span id="nomeAnunciante_modal"></span></p>
+                            <p ><b>Cidade: </b><span id="cidade_modal"></span></p>
+                            <p ><b>Tipo de Anúncio: </b><span id="tipoAnuncio_modal"></span></p>
+                            <p ><b>Descrição do Imóvel: </b><span id="desc_modal"></span></p>
+                            <p ><b>Preço: </b><span id="preco_modal"></span></p>
+                            <p class="alert alert-success"><b>Situação: </b><span id="situacao_modal"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <div id="botoes-footer">
+                                <a href="#" id="email_modal" class="btn btn-primary btn-lg active" target="_blank" role="button">EMAIL</a>
+                                <a href="#" id="celular_modal" class="btn btn-primary btn-lg active" target="_blank" role="button">WHATSAPP</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="texto-imagem-modal">
-                    <p><b>Nome do Anunciante: </b><span id="nomeAnunciante_modal"></span></p>
-                    <p ><b>Cidade: </b><span id="cidade_modal"></span></p>
-                    <p ><b>Tipo de Anúncio: </b><span id="tipoAnuncio_modal"></span></p>
-                    <p ><b>Descrição do Imóvel: </b><span id="desc_modal"></span></p>
-                    <p ><b>Preço: </b><span id="preco_modal"></span></p>
-                    <p class="alert alert-success"><b>Situação: </b><span id="situacao_modal"></span></p>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-                <!-- <button type="button" class="btn btn-primary">Understood</button> -->
-                <div id="botoes-footer">
-                    <input type="submit" onclick="location.href='https://mail.google.com/mail/u/0/?fs=1&to=redbullfc18@gmail.com&tf=cm#'" class="fadeIn fourth zero-raduis botao-footer" value="EMAIL">
-                    <input type="submit" onclick="location.href='https://api.whatsapp.com/send?phone=5584996120413'" class="fadeIn fourth zero-raduis botao-footer" value="TELEFONE">
-                </div>
-            </div>
             </div>
         </div>
-    </div>
-    <!-- MODAL -->
+        <!-- MODAL -->
     <!-- DATALIST OU HISTORICO-->
     <datalist id = "historico"> 
             <option value="Casa"></option>

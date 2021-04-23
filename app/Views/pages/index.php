@@ -62,7 +62,7 @@
                     $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
                     $aux ="";
                     if(isset($_SESSION['cidade'])){
-                        $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id and anuncios.cidade_anuncio = '".$_SESSION['cidade']."'";
+                        $query = "select * from anuncios join usuario on anuncios.idUsuario = usuario.id and (anuncios.cidade_anuncio like '%".$_SESSION['cidade']."%') ";
                         $result = mysqli_query($conn, $query);
                         echo "<h4 id='location' class='form-label'>IMÓVEIS PRÓXIMOS A SUA LOCALIZAÇÃO!</h4>"; 
                     }else{

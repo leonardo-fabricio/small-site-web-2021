@@ -43,6 +43,8 @@
     <?php 
     unset($_SESSION['msg']);
     unset($_SESSION['msg3']);
+    unset($_SESSION['msg7']);
+    unset($_SESSION['msg8']);
     $aux = "";
     ?>
     

@@ -8,7 +8,6 @@
     $conn = mysqli_connect($servidor,$usuario,$senhaserver, $dbnome);
     $query = "select * from anuncios where idUsuario = '". $_SESSION['idu']."'";
     $result = mysqli_query($conn, $query);
-
     while ($dados_banco = mysqli_fetch_array($result)){
         $cidade = $dados_banco['cidade_anuncio'];
         $tipoImovel = $dados_banco['tipoImovel'];
@@ -17,7 +16,7 @@
         $descrissao = $dados_banco['descricao'];
         $caminho = $dados_banco['caminho'];
         $situacao = $dados_banco['situacao'];
-        $id = $dados_banco['id'];
+        $idAnuncio = $dados_banco['id'];
 ?>
     <section id="meus-anuncios">
         
@@ -33,10 +32,12 @@
                         <li id="cidade" class="list-group-item"><b>Cidade: </b><?php echo "$cidade" ?></li>
                         <li id="tipoAnuncio" class="list-group-item"><b>Tipo: </b><?php echo "$tipoAnuncio" ?></li>
                     </ul>
-                    <div class="card-body">
-                        <button  type="submit" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-outline-secondary">EDITAR</button>
-                        <a href="../../Pages/showme/Remover_anuncio?id=<?php echo $id;?>" type="submit"  class="btn btn-outline-danger">REMOVER</a>
-                        <button style ="margin-top:4px; margin-left:5px;" type="button" class="btn btn-outline-success">NEGOCIO FECHADO</button>
+                    <div class="card-body -dash">
+                        <a  type="submit" href="Editar_anuncio" onclick="<?php $_SESSION['edit-cidade'] = $cidade;$_SESSION['edit-preco'] = $preco; $_SESSION['edit-descricao'] = $descrissao; $_SESSION['edit-tipoImovel'] = $tipoImovel; $_SESSION['idanuncio'] = $idAnuncio; $_SESSION['edit-situacao'] = $situacao;?>" class="btn btn-outline-secondary">EDITAR</a>
+                        <a href="../../Pages/showme/Remover_anuncio?id=<?php echo $idAnuncio;?>" type="submit"  class="btn btn-outline-danger">REMOVER</a>
+                        <?php if($situacao == "Disponivel" || $situacao == "disponivel" || $situacao == "disponível" || $situacao == "Disponível"){ ?>
+                            <a href="../../Pages/showme/Processo_negocio?id3=<?php echo $idAnuncio;?>" style ="margin-top:4px; margin-left:5px;" type="submit" class="btn btn-outline-success">NEGOCIO FECHADO</a>
+                        <?php } ?>
                     </div>
                 </div>
             
@@ -80,18 +81,19 @@
     <?php }?>
 
         </section>
+        <section id="minhas-solicitacoes" style=" ">
+        <h4>Solicitações feitas por você</h4>
     <?php 
         
         $query_ms = "select * from solicitacoes where idu = '".$_SESSION['idu'] ."' ";
         $result_qms = mysqli_query($conn, $query_ms);
+           
         while ($dados_banco3 = mysqli_fetch_array($result_qms)){
                 $cidade_ms = $dados_banco3['cidade_solicitacao'];
                 $descrissao_ms = $dados_banco3['descricao'];
                 $id_ms = $dados_banco3['id'];
                 //TESTAR PARA REMOVER DO BANCO onclick="<?php removerBanco($id_ms,2,$conn)?>
-        <section id="minhas-solicitacoes" style=" ">
-                <h4>Solicitações feitas por você</h4>
-
+        
                     <div id="cards-solicitacoes" class="container">
                         <div id="card-init" class="row g-0 bg-light position-relative">
                             <div class="col-md-4 mb-md-0 p-md-4">
@@ -102,9 +104,8 @@
                                 <p><?php echo $cidade_ms ?></p>
                                 <p><?php echo $descrissao_ms ?></p>
                                 
-                                <button type="button" class="btn btn-outline-secondary">EDITAR</button>
-                                <button type="button"  class="btn btn-outline-danger">REMOVER</button>
-                                <button  type="button" class="btn btn-outline-success">ENCONTREI O IMOVEL</button>
+                                <a href="../../Pages/showme/Remover_solicitacao?id2=<?php echo $id_ms;?>" type="submit"  class="btn btn-outline-danger">REMOVER</a>
+                                <a href="../../Pages/showme/Remover_solicitacao?id3=<?php echo $id_ms;?>" type="submit" class="btn btn-outline-success">ENCONTREI O IMOVEL</a>
                             </div>
                         </div><br>
                     </div>

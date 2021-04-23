@@ -10,7 +10,7 @@ $cep = filter_input(INPUT_POST, 'cep', FILTER_SANITIZE_STRING);
 $cidade = filter_input(INPUT_POST, 'cidade', FILTER_SANITIZE_STRING); 
 
 $arquivo = $_FILES['arquivo']['name'];
-$_UP['pasta'] = '../public/images/img_anuncios/ ';
+$_UP['pasta'] = '../public/images/img_usuario/ ';
 //Renomeiar
     $_UP['renomeia'] = false;
     

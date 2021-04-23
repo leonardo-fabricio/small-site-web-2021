@@ -1,13 +1,12 @@
-<?php
+<?php 
     session_start();
-    include_once ("conexao.php");
-
+    include_once("conexao.php");
     $cidade = filter_input(INPUT_POST, 'cidade', FILTER_SANITIZE_STRING);
     $tipoImovel = filter_input(INPUT_POST, 'tipo-imovel', FILTER_SANITIZE_STRING);
     $tipoAnuncio = filter_input(INPUT_POST, 'tipo', FILTER_SANITIZE_STRING);
     $preco = filter_input(INPUT_POST, 'preco', FILTER_SANITIZE_STRING);
     $descrissao = filter_input(INPUT_POST, 'w3review', FILTER_SANITIZE_STRING);
-    $situacao = "Disponivel";
+    $situacao = filter_input(INPUT_POST, 'situacao', FILTER_SANITIZE_STRING);
 
     $arquivo = $_FILES['arquivo']['name'];
     $_UP['pasta'] = '../public/images/img_anuncios/ ';
@@ -50,21 +49,13 @@
             if(move_uploaded_file($_FILES['arquivo']['tmp_name'], $_UP['pasta']. $nome_final)){
                 //Upload efetuado com sucesso, exibe a mensagem
 
-                $idu = $_SESSION['idu'];
-                $dados_anuncio = "insert into anuncios values (default,'$cidade','$tipoImovel','$tipoAnuncio','$preco','$descrissao','$nome_final','$idu','$situacao')";
-                $retorno_anuncio = mysqli_query($conn, $dados_anuncio);
+                $query = "update anuncios set cidade_anuncio = '$cidade', tipoImovel = '$tipoImovel', tipoAnuncio = '$tipoAnuncio', preco = '$preco', descricao = '$descrissao', caminho = '$nome_final', situacao = '$situacao' where id = '".$_SESSION['idanuncio']."'";
+                $resultado= mysqli_query($conn,$query);
 
-                if(mysqli_insert_id($conn)){
-                    $_SESSION['msg2'] = "true"; 
-            
-                    header('Location: index-dashboard');
-                    exit();
-                }
-                else{
-                    $_SESSION['msg2'] = "false";
-                    header('Location: anunciar-imoveis');
-                    die();
-                }	
+                $_SESSION['msg9'] = 'true';
+                header('Location: index-dashboard');
+                exit();
+                	
             }else{
                 //Upload não efetuado com sucesso, exibe a mensagem
                 echo "
@@ -76,5 +67,11 @@
             }
         }
 
-  
+
+
+
+
+    
+
+// tendi 
 ?>

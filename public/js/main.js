@@ -1,5 +1,4 @@
 //alert('eu funciono aqui hhe');
-
 // .
 
   // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
@@ -175,4 +174,20 @@ function card_btn_click(cidade,tipoimovel,tipoanuncio,descricao,preco,situacao,n
     link2.setAttribute("href", "https://api.whatsapp.com/send?phone=" + celular + "&text=Olá, Fiquei bastante interessado no seu Imóvel, poderia me retornar essa mensagem para negociarmos?");  
 
 }
+var editcidade;
+//alert("akdlasdkaldklakd");
+function edit_anuncio(editcidade,edittipoimovel,editpreco,editdescricao){
+     alert(getcidade());
+    // alert(tipoimovel);
+    document.getElementById('Edit_cidade').value = editcidade;
+    document.getElementById('Edit_tipo-imovel').value = edittipoimovel;
+    document.getElementById('Edit_preco').value = "teste";
+    document.getElementById('Edit_w3review').value = editdescricao;
+     
+}
+function getcidade(){
+    return editcidade;  
+}
+alert(getcidade());
+
 

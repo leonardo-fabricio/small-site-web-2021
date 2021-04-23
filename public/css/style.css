@@ -967,3 +967,7 @@ textarea:hover{
     height: 45px; 
     width: 135px !important;
 }
+.card-body.-dash{
+    height: 100px;
+
+}

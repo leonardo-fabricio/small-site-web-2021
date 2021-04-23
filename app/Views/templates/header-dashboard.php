@@ -22,6 +22,14 @@ if(isset($_SESSION['msg7'])){
     echo "<script> alert('Removido Com Sucesso!'); </script>";
     unset($_SESSION['msg7']);
 }
+if(isset($_SESSION['msg8'])){
+    echo "<script> alert('Solicitação Removida.'); </script>";
+    unset($_SESSION['msg8']);
+}
+if(isset($_SESSION['msg9'])){
+    echo "<script> alert('Anuncio Atualizado Com sucesso!'); </script>";
+    unset($_SESSION['msg9']);
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -94,11 +102,10 @@ if(isset($_SESSION['msg7'])){
             <ul id="slide-out" class="sidenav">
                 <li><div class="user-view">
                 <div class="background">
-                    <img src="https://www.significados.com.br/foto/paisagem-natural-significados.jpg">
+                    <img style="width:100% !important;" src="../../../public/images/images (1).jpg">
                 </div>
                 <a href="#user"><img class="circle" src="../../../public/images/img_usuario/ <?php echo $_SESSION['caminho'];?> "></a>
-                <a href="#name"><span class="white-textName"></span><?php echo $dados_banco['nome'] ?></a>
-                
+                <?php echo "<p style='color:white;'>". $_SESSION['nome'] ."</p>"?>
                 </div></li>
                 <li><a href="#meus-anuncios">Meus Anúncios</a></li>
                 <li><a href="#solicitacoes-Disponiveis">Solicitações de Imóveis</a></li>

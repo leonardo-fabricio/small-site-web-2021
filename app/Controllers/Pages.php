@@ -52,6 +52,15 @@
                 echo view('../model/'.$page, $data);
                 
             }
+            else if ($page == "Processo_editar_anuncio"){
+                echo view('../model/'.$page, $data);
+            }
+            else if($page == "Remover_solicitacao"){
+                echo view('../model/'.$page, $data);
+            }
+            else if($page == "Processo_negocio"){
+                echo view('../model/'.$page, $data);
+            }
             else{    
                 echo view('templates/header', $data);
                 echo view('pages/'.$page, $data);
